@@ -19,7 +19,7 @@ Este repositorio contiene la solución a la prueba técnica de POO, implementada
    2. Método gírarDisco() con acento en la "i" de girar.
    3. Comentario "got you!". Lo he incluido dentro del método reportarInformacion() en la clase Padre Abstracta.
 
-   BONUS
+3. BONUS
 
    1. Clases BlueRay y Vinilo.
       · BlueRay encaja sin problemas en el modelo de herencia, ya que gira, lee y escribe. Por tanto, se ha añadido una clase BlueRay.java que hereda de la clase padre.
