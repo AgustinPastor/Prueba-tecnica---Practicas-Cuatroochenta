@@ -24,6 +24,7 @@ Este repositorio contiene la solución a la prueba técnica de POO, implementada
    1. Clases BlueRay y Vinilo.
 
       · BlueRay encaja sin problemas en el modelo de herencia, ya que gira, lee y escribe. Por tanto, se ha añadido una clase BlueRay.java que hereda de la clase padre.
+
       · El vinilo no encaja bien ya que no podemos escribir en él (en el contexto de un usuario). El modelo obliga a todas las clases hijas a heredar el método escribirDatos() lo cual no sería correcto.
 
       Este problema resalta que un modelo de Interfaces sería lo correcto y más flexible, donde (dependiendo de las características de cada Objeto) se implementarían unas u otras.
@@ -31,4 +32,5 @@ Este repositorio contiene la solución a la prueba técnica de POO, implementada
    2. Ruedas y Frisbees
 
       · Lo mismo sucedería con estos dos objetos. No son dispositivos de almacenamiento por lo que carece de sentido heredar de la clase padre, ya que el único comportamiento que comparten es que giran.
+
       · La solución también pasaría por un modelo de interfaces, donde Rueda y Fresbee implementarían únicamente la interfaz girar.
